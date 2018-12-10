@@ -1,0 +1,15 @@
+/.env
+/target
+/target
+/lib
+/classes
+/checkouts
+pom.xml
+pom.xml.asc
+*.jar
+*.class
+/.lein-*
+/.nrepl-port
+dev/resources/config.edn
+/.idea
+.cpcache

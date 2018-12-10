@@ -1,0 +1,12 @@
+{:deps
+ {
+  com.datomic/datomic-pro {:mvn/version "0.9.5786"}
+  }
+ :paths ["src"]
+ :aliases
+ {:dev 
+  {
+   :extra-paths ["dev/src"]
+   }
+  }
+ }
