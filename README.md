@@ -82,7 +82,7 @@ This is what I get:
         at datomic.client.api.impl$dynaload.invokeStatic(impl.clj:10)
         ... 17 more
 
-** Fixed**
+**Fixed**
 
 This is what's wrong.
 
