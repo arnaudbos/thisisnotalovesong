@@ -81,3 +81,15 @@ This is what I get:
         at clojure.lang.RestFn.invoke(RestFn.java:408)
         at datomic.client.api.impl$dynaload.invokeStatic(impl.clj:10)
         ... 17 more
+
+** Fixed**
+
+This is what's wrong.
+
+In deps.edn, this:
+
+    com.datomic/datomic-pro {:mvn/version "0.9.5786"}
+
+Should have been that:
+
+    com.datomic/client-pro {:mvn/version "0.8.28"}
